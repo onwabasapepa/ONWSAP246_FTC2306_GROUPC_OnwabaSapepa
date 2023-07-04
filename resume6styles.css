@@ -1,0 +1,88 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+h1{
+    color: red;
+}
+h2{
+    color: darkgreen;
+    background-color: black;
+    margin-right: 1000px;
+    border-radius: 10%;
+}
+.onwaba{
+    
+    font-style: italic;
+    padding: 1rem;
+    margin-right: 900px;
+    top: 1px;
+
+}
+p{
+    margin: 0;
+    color:black;
+}
+footer{
+    background-color: darkseagreen;
+    font-style: inherit;
+}
+main{
+     background-color: white;
+     height: 50vh;
+
+}
+section{
+    margin:0 2rem; 
+    padding:0 2rem 2rem 2rem;
+    border-radius: 6px solid purple;
+    border margin: 40%;
+    text-align: :left;
+        
+}
+img{
+    border: 6px solid red; 
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+}
+header{
+    background-color:rgb(183, 97, 233);
+    text-align: center;
+    margin-bottom: 0;
+    border-radius: 10%;
+    border: 20%;
+    border: 6px solid purple;
+
+}
+.zizi{
+    background-color: black;
+}
+.image{
+    margin-top: 1rem;
+    position: relative;
+    top: 30px;
+}
+    nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: dimgrey;
+        border-radius: 20%;
+    
+    }
+.gotopbtn{
+    background-color: orange;
+    text-align: center;
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    line-height: 50px;    
+}

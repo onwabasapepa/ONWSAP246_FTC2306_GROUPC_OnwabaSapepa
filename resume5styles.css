@@ -1,0 +1,57 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+h1{
+    color: blueviolet;
+}
+h2{
+    color: darkgreen;
+}
+.onwaba{
+    background-color: dimgray;
+    font-style: italic;
+    padding: 1rem;
+    margin-right: 900px;
+
+}
+p{
+    margin: 0;
+    color: chocolate;
+}
+footer{
+    background-color: darkseagreen;
+    font-style: inherit;
+}
+main{
+     background-color: white;
+     height: 50vh;
+
+}
+section{
+    margin:0 2rem; 
+    padding:0 2rem 2rem 2rem;
+    border-radius: 6px solid purple;
+    border margin: 40%;
+    text-align: :left;
+        
+}
+img{
+    border: 6px solid purple; 
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+}
+header{
+    background-color:greenyellow;
+    text-align: center;
+    margin-bottom: 0;
+}
+.zizi{
+    background-color: black;
+}
+.image{
+    margin-top: 1rem;
+}
+    
