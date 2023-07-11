@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
     <title>Onwaba Sapepa</title>
     <link
       rel="shortcut icon"
       type="image/jpg"
       href="./images/IMG-20230502-WA0001.jpg"
     />
-    <link
-      rel="stylesheet"
-      href="../ONWSAP246_FTC2306_GROUPC_OnwabaSapepa/resume6styles.css"
-    />
+    <link rel="stylesheet" href="../resume5styles.css" />
   </head>
   <body>
     <header>
@@ -34,14 +30,12 @@
     <section>
       <article>
         <div class="onwaba">
-          <nav>
-            <ul>
-              <li><a href="#education">Education</a></li>
-              <li><a href="#Experience">Experience</a></li>
-              <li><a href="#Skills">Skills</a></li>
-              <li><a href="#Contact">Contact</a></li>
-            </ul>
-          </nav>
+          <ul>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
         </div>
 
         <br />
@@ -97,9 +91,6 @@
         </ul>
       </article>
     </section>
-    <div>
-      <a class="gotopbtn" href="#">^</a>
-    </div>
 
     <footer>
       <h2 id="Contact">Contact Details</h2>
@@ -107,6 +98,34 @@
       <a href="#">Gmail- Owaba Sapepa</a>
       <a href="www.linkedin.com" target="_blank">Linkedin</a>
       Cellphone number- 0646762064
+      <form action="https://sapepaonwaba29@gmail.com" method="post">
+        <div>
+            <label for="name">Full Name: </label>
+            <input type="text" name="name" placeholder="Full name" required>
+        </div> 
+        <div>
+            <label for="Contact">Cellphone number-</label>
+            <input type="number" name="number" placeholder="Cellphone" required>
+        </div>
+        <div>
+            <label for="email">Email adress:</label>
+            <input type="email" name="email" placeholder="Email" required>
+            <select name="_Race" id="race">Race
+                <option value="Asian">Asian</option>
+                <option value="Black">Black</option>
+                <option value="Indian">Indian</option>
+                <option value="White">White</option>
+                <option value="Other">Other</option>
+            </select>
+            <textarea name="message" id="text" cols="30" rows="10" message here please (optional)></textarea>
+            
+
+            <input class="submit" type="submit" value="send">
+        </div>
+       
+        
+       
+      </form>
     </footer>
   </body>
 </html>
